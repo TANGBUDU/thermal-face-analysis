@@ -12,7 +12,7 @@ This repository contains a Blender-based workflow for aligning a 3D facial mesh 
 
 ## Prerequisites
 
-- Blender (tested with 3.x)
+- Blender 
 - Thermographic image sequence for the subject you want to align
 - Facial landmark detection results (JSON/CSV) that the alignment script consumes
 
@@ -67,7 +67,6 @@ If the render looks correct, proceed to automation.
 
 ## Notes
 
-- This README was generated from the original Word documentation located at README.docx.
 - Keep the Blender project and reference data (frames + landmarks) in the same directory structure used when configuring the script to avoid hard-coded path issues.
 
 ## License
