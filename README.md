@@ -69,7 +69,3 @@ If the render looks correct, proceed to automation.
 
 - Keep the Blender project and reference data (frames + landmarks) in the same directory structure used when configuring the script to avoid hard-coded path issues.
 
-## License
-
-The license for this project has not been specified. Add a LICENSE file if you plan to publish the repository publicly.
-
