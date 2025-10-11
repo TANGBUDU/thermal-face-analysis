@@ -40,6 +40,3 @@ Normalization includes scaling by frame width/height and flipping the Y-axis to 
 - Heavy head motion can cause tracker drift. If that happens, reselect different landmarks and rerun the script.
 - To adapt the output to other applications, edit the normalization section shown above and adjust the CSV writing logic.
 
-## License
-
-No license specified yet. Add one before distributing publicly.
