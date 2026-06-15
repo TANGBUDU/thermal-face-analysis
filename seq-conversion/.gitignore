@@ -1,0 +1,7 @@
+# data / outputs
+*.seq
+*.mat
+*.wmv
+_test_out/
+__pycache__/
+*.pyc
