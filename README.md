@@ -1,18 +1,17 @@
 # Thermal Face Analysis
 
-Research on pixel-based facial thermal image analysis for emotion sensing.
+Tooling for working with FLIR thermal face recordings.
 
-## Components
+## seq-conversion
 
-The pipeline runs in order: raw camera recordings → temperature data → alignment → landmarks.
+Convert FLIR ResearchIR `.seq` recordings to:
 
-- **`seq-conversion/`** — Data preparation: convert FLIR `.seq` recordings to
-  `.mat` (lossless raw + temperature in °C) and `.wmv` previews, without FLIR
-  software. Verified against FLIR-software output to ~1×10⁻⁵ °C.
-- **`alignment/`** — Development of pixel-based facial thermal image alignment
-  (originally `Thermal-facial-alignment`)
-- **`landmark-detection/`** — Landmark detection for thermal facial images, MATLAB
-  (originally `Thermal_face_Landmark_detection`)
+- **`.mat`** — lossless raw 16-bit signal **and** temperature in °C
+- **`.wmv`** — colour-mapped preview video
 
-The `alignment/` and `landmark-detection/` components keep their full original
-commit history (merged via git subtree).
+…without FLIR / ResearchIR software. Temperatures are reproduced from the
+camera's embedded calibration using the standard FLIR radiometric equation, and
+have been **verified against FLIR-software output to ~1×10⁻⁵ °C**.
+
+→ See **[`seq-conversion/`](seq-conversion/)** for installation, usage, options,
+and the full accuracy discussion.
