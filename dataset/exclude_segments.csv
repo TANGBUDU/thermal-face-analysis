@@ -1,0 +1,7 @@
+﻿Participant_ID,exclude_film,film_start_earSec,film_end_earSec,front_missed_s,decision
+251110_01,Neutral,35,184,85.8,EXCLUDE(both)
+251106_02,Sadness,54,225,82.0,EXCLUDE(both)
+251111_01,Contentment,25,225,80.9,EXCLUDE(both)
+251107_01,Neutral,40,189,64.9,EXCLUDE(both)
+251106_01,Contentment,103,303,18.5,EXCLUDE(both)
+251218_01,Amusement,13,208,5.4,EXCLUDE(both)
